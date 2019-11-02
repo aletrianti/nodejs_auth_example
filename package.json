@@ -1,0 +1,24 @@
+{
+  "name": "nodejs_auth_example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "server": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aletrianti/nodejs_auth_example.git"
+  },
+  "author": "Alessia Trianti",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aletrianti/nodejs_auth_example/issues"
+  },
+  "homepage": "https://github.com/aletrianti/nodejs_auth_example#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.7.7",
+    "nodemon": "^1.19.4"
+  }
+}

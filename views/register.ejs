@@ -1,0 +1,23 @@
+<% include ./partials/header %>
+
+<div id="register-section">
+    <h1>Register</h1>
+
+    <form action="/register" method="post" class="form">
+        <div class="form-field">
+            <label for="username">Username</label>
+            <input type="text" name="username" id="username">
+        </div>
+
+        <div class="form-field">
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password">
+        </div>
+
+        <button>Register</button>
+    </form>
+
+    <span>Already registered? You can login <a href="/login">here</a>.</span>
+</div>
+
+<% include ./partials/footer %>

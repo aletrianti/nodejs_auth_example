@@ -1,0 +1,23 @@
+<% include ./partials/header %>
+
+<div id="login-section">
+    <h1>Login</h1>
+
+    <form action="/login" method="post" class="form">
+        <div class="form-field">
+            <label for="username">Username</label>
+            <input type="text" name="username" id="username">
+        </div>
+        
+        <div class="form-field">
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password">
+        </div>
+
+        <button>Login</button>
+    </form>
+
+    <span>Don't have an account? You can register <a href="/register">here</a>.</span>
+</div>
+
+<% include ./partials/footer %>
